@@ -1,0 +1,28 @@
+{
+    "name": "ipaya/yii2-editormd",
+    "description": "Editor.md for Yii2",
+    "keywords": [
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "bower-asset/editor.md": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">4.8.20 <6.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "iPaya\\Yii2\\EditorMD\\": ""
+        }
+    }
+}
