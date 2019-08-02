@@ -11,7 +11,7 @@ The editor.md extension for Yii2.
 
 $form->field($model, 'markdown')->widget(EditorMD::className(), [
     'clientOptions'=>[
-        'height" => 600,
+        'height' => 600,
     ]
 ]);
 ```
